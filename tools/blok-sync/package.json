@@ -1,0 +1,13 @@
+{
+  "name": "blok-sync",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "parse": "node parse.mjs",
+    "login": "node sync.mjs login",
+    "inspect": "node sync.mjs inspect"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
